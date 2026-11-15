@@ -13,3 +13,22 @@ frontend/.env
 *.log
 .DS_Store
 Thumbs.db
+
+# IDE files
+.idea/
+*.iml
+
+# Node dependencies
+node_modules/
+
+# Frontend build files
+frontend/dist/
+
+# Java build files
+backend/target/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
